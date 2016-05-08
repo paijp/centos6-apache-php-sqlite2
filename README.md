@@ -1,5 +1,6 @@
 # centos6-apache-php-sqlite2
 Dockerfile for php5.3.3 with sqlite2 and apache on CentOS6.
+Using only yum (and yumdownloader, gcc).
 
     $ docker run -it paijp/centos6-apache-php-sqlite2
     PDO Driver for SQLite 3.x => enabled
