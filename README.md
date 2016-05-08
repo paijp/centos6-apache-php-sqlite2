@@ -11,3 +11,7 @@ Dockerfile for php5.3.3 with sqlite2 and apache on CentOS6.
     SQLite3 support => enabled
     SQLite3 module version => 0.7-dev
     SQLite Library => 3.6.20
+    
+    $ docker run -it -p 80:80 paijp/centos6-apache-php-sqlite2 /bin/bash
+    # yum install php-gd php-mbstring
+    # /etc/init.d/httpd start
